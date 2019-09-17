@@ -17,7 +17,7 @@ namespace UiPathTeam.Dates.Activities
         public InArgument<Int32> Offset { get; set; }
 
         [LocalizedCategory(nameof(Resources.Input))]
-        public InArgument<MatType> Units { get; set; }
+        public MatType Units { get; set; } = MatType.Days;
 
 
         [LocalizedCategory(nameof(Resources.Output))]
@@ -31,7 +31,7 @@ namespace UiPathTeam.Dates.Activities
                 date = DateTime.Today;
 
             Int32 offset = Offset.Get(context);
-            MatType unit = Units.Get(context);
+            MatType unit = Units;
             DateTime newDate = new DateTime();
 
             switch (unit)
