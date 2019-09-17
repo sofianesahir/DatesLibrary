@@ -17,6 +17,7 @@ namespace UiPathTeam.Dates.Activities
         public InArgument<Int32> Offset { get; set; }
 
         [LocalizedCategory(nameof(Resources.Input))]
+        [RequiredArgument]
         public MatType Units { get; set; } = MatType.Days;
 
 
