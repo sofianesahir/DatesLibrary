@@ -1,0 +1,8 @@
+C:\Users\SAHIR\source\repos\Output\bin\Debug\UiPathTeam.Dates.dll
+C:\Users\SAHIR\source\repos\Output\bin\Debug\UiPathTeam.Dates.pdb
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates\obj\Debug\UiPathTeam.Dates.csprojAssemblyReference.cache
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates\obj\Debug\UiPathTeam.Dates.Properties.Resources.resources
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates\obj\Debug\UiPathTeam.Dates.csproj.GenerateResource.cache
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates\obj\Debug\UiPathTeam.Dates.csproj.CoreCompileInputs.cache
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates\obj\Debug\UiPathTeam.Dates.dll
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates\obj\Debug\UiPathTeam.Dates.pdb
