@@ -1,0 +1,11 @@
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\bin\Release\UiPathTeam.Dates.Activities.dll
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\bin\Release\UiPathTeam.Dates.Activities.pdb
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\bin\Release\UiPathTeam.Dates.dll
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\bin\Release\UiPathTeam.Dates.pdb
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Release\UiPathTeam.Dates.Activities.csprojAssemblyReference.cache
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Release\UiPathTeam.Dates.Activities.Properties.Resources.resources
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Release\UiPathTeam.Dates.Activities.csproj.GenerateResource.cache
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Release\UiPathTeam.Dates.Activities.csproj.CoreCompileInputs.cache
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Release\UiPathTeam.Dates.Activities.csproj.CopyComplete
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Release\UiPathTeam.Dates.Activities.dll
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Release\UiPathTeam.Dates.Activities.pdb

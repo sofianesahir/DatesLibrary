@@ -1,0 +1,8 @@
+C:\Users\SAHIR\source\repos\Output\bin\Debug\UiPathTeam.Dates.Activities.dll
+C:\Users\SAHIR\source\repos\Output\bin\Debug\UiPathTeam.Dates.Activities.pdb
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Debug\UiPathTeam.Dates.Activities.csprojAssemblyReference.cache
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Debug\UiPathTeam.Dates.Activities.Properties.Resources.resources
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Debug\UiPathTeam.Dates.Activities.csproj.GenerateResource.cache
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Debug\UiPathTeam.Dates.Activities.csproj.CopyComplete
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Debug\UiPathTeam.Dates.Activities.dll
+C:\Users\SAHIR\source\repos\UiPathTeam.Dates\UiPathTeam.Dates.Activities\obj\Debug\UiPathTeam.Dates.Activities.pdb

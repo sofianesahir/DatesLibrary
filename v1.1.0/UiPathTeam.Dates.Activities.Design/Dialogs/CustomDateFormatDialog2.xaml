@@ -1,0 +1,59 @@
+﻿<sap:WorkflowElementDialog x:Class="UiPathTeam.Dates.Activities.Design.Dialogs.CustomDateFormatDialog2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="clr-namespace:System;assembly=mscorlib"
+    xmlns:sap="clr-namespace:System.Activities.Presentation;assembly=System.Activities.Presentation"
+    xmlns:sapc="clr-namespace:System.Activities.Presentation.Converters;assembly=System.Activities.Presentation"
+    xmlns:sapv="clr-namespace:System.Activities.Presentation.View;assembly=System.Activities.Presentation"
+    Title="Custom Date Format Wizard"
+    WindowResizeMode="NoResize" Width="400" DataContext="{Binding RelativeSource={RelativeSource Self}}">
+
+    <sap:WorkflowElementDialog.Resources>
+        <sapc:ArgumentToExpressionConverter x:Key="ArgumentToExpressionConverter" />
+    </sap:WorkflowElementDialog.Resources>
+
+    <DockPanel  Margin="0, 4, 0, 8" DockPanel.Dock="Bottom" Background="{x:Static SystemColors.ControlBrush}" x:Name="ConnectionSettings">
+        <StackPanel  DockPanel.Dock="Top" Margin="0,0,5,0" >
+            <TextBlock Text="Custom String Format:" VerticalAlignment="Center" HorizontalAlignment="Left" Width="150" />
+            <sapv:ExpressionTextBox Expression="{Binding Path=ModelItem.Format, Converter={StaticResource ArgumentToExpressionConverter}, Mode=TwoWay, ConverterParameter=In, UpdateSourceTrigger=PropertyChanged}"  
+                                    OwnerActivity="{Binding Path=ModelItem}" 
+                                    ExpressionType="s:String" MaxLines="1" Background="White"
+                                    HintText="Custom Date Format" Margin="0,8,0,0" Height="24" VerticalAlignment="Stretch"/>
+            <StackPanel Orientation="Vertical">
+                <TextBlock TextWrapping="Wrap" FontSize="12" >
+                    Hint for Date:
+                    <LineBreak />
+                    d Represents the day of the month as a number from 1 through 31. <LineBreak/>
+                    dd Represents the day of the month as a number from 01 through 31. <LineBreak/>
+                    ddd Represents the abbreviated name of the day (Mon, Tues, Wed etc). <LineBreak/>
+                    dddd Represents the full name of the day (Monday, Tuesday etc). <LineBreak/>
+                     <LineBreak/>
+                    M Month number (eg. 3)  <LineBreak/>
+                    MM Month number with leading zero (eg. 04) <LineBreak/>
+                    MMM Abbreviated Month Name (e.g. Dec) <LineBreak/>
+                    MMMM Full month name (e.g. December) <LineBreak/>
+                    <LineBreak />
+                    y Year, no leading zero (e.g. 2009 would be 9)<LineBreak/>
+                    yy Year, leadin zero (e.g. 2009 would be 09)<LineBreak/>
+                    yyy Year, (e.g. 2009)<LineBreak/>
+                    yyyy Year, (e.g. 2009)<LineBreak/>
+                    -------------------------------------------------------------------------------<LineBreak />
+                    Hint for Time:<LineBreak />
+                    h 12-hour clock hour (e.g. 4). <LineBreak/>
+                    hh 12-hour clock, with a leading 0 (e.g. 06) <LineBreak/>
+                    H 24-hour clock hour (e.g. 15) <LineBreak/>
+                    HH 24-hour clock hour, with a leading 0 (e.g. 22) <LineBreak/>
+                    <LineBreak/>
+                    m Minutes  <LineBreak/>
+                    mm Minutes with a leading zero <LineBreak/>
+                    <LineBreak/>
+                    s Seconds <LineBreak/>
+                    ss Seconds with leading zero<LineBreak/>
+                    t Abbreviated AM / PM (e.g. A or P)<LineBreak/>
+                    tt AM / PM (e.g. AM or PM)
+                </TextBlock>
+            </StackPanel>
+        </StackPanel>
+    </DockPanel>
+
+</sap:WorkflowElementDialog>
